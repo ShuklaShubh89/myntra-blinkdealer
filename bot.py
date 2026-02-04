@@ -6,11 +6,11 @@ import random
 # CONFIGURATION
 TOKEN = os.getenv("TG_TOKEN")
 CHAT_ID = os.getenv("TG_CHAT_ID")
-PRODUCT_URL = "https://www.myntra.com/gold-coin/kalyan+jewellers/kalyan-jewellers-24k-999-purity-lord-ganesh-gold-coin-2-gms/31416938/buy"
+PRODUCT_URL = "https://www.myntra.com/gold-coin/kalyan+jewellers/kalyan-jewellers-24k-999-purity-swastik-gold-coin-1-gms/31416920/buy"
 
 # Total time this script will stay "awake" per run (in seconds)
-# 600 seconds = 10 minutes of continuous monitoring
-MONITOR_DURATION = 600 
+# 1800 seconds = 30 minutes of continuous monitoring
+MONITOR_DURATION = 1800 
 CHECK_INTERVAL = 30  # Check every 30 seconds
 
 HEADERS = {
